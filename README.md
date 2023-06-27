@@ -37,7 +37,7 @@ npx codeceptjs run --features
 Step 1: Download Framwork Latest Version from this Link https://github.com/allure-framework/allure2/releases/
 Step 2 : Extract the the Downloaded Zip file
 Step 3 : Copy this "allure-2.22.4\bin" path from extracted folder and add into system environment path variables
-Step 4 : Verify Installtion "allure --version"
+Step 4 : Open new Command Prompt and Verify Installtion by executing "allure --version"
 ```
 
 ## Installing Allure Plugin
