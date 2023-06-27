@@ -20,3 +20,18 @@ npx selenium-standalone install && npx selenium-standalone start
 ```
 npx codeceptjs run --features
 ```
+
+# Generate Report
+
+## Installing Allure Plugin
+
+```
+npm install @codeceptjs/allure-legacy --save-dev
+```
+
+## Viewing Report
+
+```
+allure server <path/to/output/directory>
+For eg. allure server output/
+```
