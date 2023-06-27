@@ -1,5 +1,12 @@
 # codecept-aljazeera-practical
 
+# Clone this repo
+
+```
+Step 1: git clone https://github.com/Jignesh30/codecept-aljazeera-practical.git
+Step 2: Navigate to "codecept-aljazeera-practical" directory
+```
+
 # Install Dependencies
 
 ```
@@ -11,7 +18,8 @@
 
 # Start Server 
 
-```
+## Execute this command in another Terminal
+``` 
 npx selenium-standalone install && npx selenium-standalone start
 ```
 
@@ -22,6 +30,15 @@ npx codeceptjs run --features
 ```
 
 # Generate Report
+
+## Installing Allure-Framework
+
+```
+Step 1: Download Framwork Latest Version from this Link https://github.com/allure-framework/allure2/releases/
+Step 2 : Extract the the Downloaded Zip file
+Step 3 : Copy this "allure-2.22.4\bin" path from extracted folder and add into path
+Step 4 : Verify Installtion "allure --version"
+```
 
 ## Installing Allure Plugin
 
