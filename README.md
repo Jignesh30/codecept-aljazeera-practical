@@ -3,8 +3,10 @@
 # Clone this repo
 
 ```
-Step 1: git clone https://github.com/Jignesh30/codecept-aljazeera-practical.git
-Step 2: Navigate to "codecept-aljazeera-practical" directory
+Step 1: Create a new Directory into the drive(C: or D:) <Directory Name>
+Step 2: Open this folder <Directory Name>
+Step 3: Execute git clone https://github.com/Jignesh30/codecept-aljazeera-practical.git Command
+Step 4: Navigate to "codecept-aljazeera-practical" directory and open in VS Code 
 ```
 
 # Install Node Modules Dependencies
