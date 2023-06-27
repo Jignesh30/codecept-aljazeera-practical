@@ -7,7 +7,7 @@ Step 1: git clone https://github.com/Jignesh30/codecept-aljazeera-practical.git
 Step 2: Navigate to "codecept-aljazeera-practical" directory
 ```
 
-# Install Dependencies
+# Install Node Modules Dependencies
 
 ```
 1. npx create-codeceptjs . --webdriverio
@@ -23,15 +23,7 @@ Step 2: Navigate to "codecept-aljazeera-practical" directory
 npx selenium-standalone install && npx selenium-standalone start
 ```
 
-# Execute Tests
-
-```
-npx codeceptjs run --features
-```
-
-# Generate Report
-
-## Installing Allure-Framework
+# Installing Allure-Framework
 
 ```
 Step 1: Download Framwork Latest Version from this Link https://github.com/allure-framework/allure2/releases/
@@ -46,9 +38,18 @@ Step 4 : Open new Command Prompt and Verify Installtion by executing "allure --v
 npm install @codeceptjs/allure-legacy --save-dev
 ```
 
+
+# Test Execution and Reporting
+
+## Execute Test
+
+```
+npx codeceptjs run --features
+```
+
 ## Viewing Report
 
 ```
-allure server <path/to/output/directory>
+Open new Command Prompt and execute command "allure server <path/to/output/directory>"
 For eg. allure server output/
 ```
