@@ -12,10 +12,10 @@ Step 4: Navigate to "codecept-aljazeera-practical" directory and open in VS Code
 # Install Node Modules Dependencies
 
 ```
-1. npx create-codeceptjs . --webdriverio
-2. npm install selenium-standalone --save-dev
-3. npm install --save-dev webdriverio@^6.12.1
-4. npm install @codeceptjs/allure-legacy --save-dev
+npx create-codeceptjs . --webdriverio
+npm install selenium-standalone --save-dev
+npm install --save-dev webdriverio@^6.12.1
+npm install @codeceptjs/allure-legacy --save-dev
 ```
 
 # Start Server 
@@ -52,6 +52,6 @@ npx codeceptjs run --features
 ## Viewing Report
 
 ```
-Open new Command Prompt and execute command "allure server <path/to/output/directory>"
-For eg. allure server output/
+Open new Command Prompt and execute command "allure serve <path/to/output/directory>"
+For eg. allure serve output/
 ```

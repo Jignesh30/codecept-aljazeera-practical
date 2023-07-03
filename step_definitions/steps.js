@@ -25,6 +25,7 @@ Then('The {string} section should have {int} posts',async () => {
 Then('Resize to Mobile Size and check for non-availability of {string}', async () => {
   I.resizeWindow(390,844);;
   I.scrollPageToTop();
+  I.dontSee('MOST READ');
   // await I.scrollTo('//h2[@aria-label="most read"]');
 });
 
